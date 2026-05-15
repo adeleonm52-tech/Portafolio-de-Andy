@@ -1,0 +1,52 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: dodgerblue;
+  text-shadow: 3px 3px 5px gray;
+  margin-top: 20px;
+}
+
+/* Estilos generales de los divs */
+div {
+  width: 350px;
+  height: 220px;
+  margin: 20px auto;
+  line-height: 220px;
+  font-size: 30px;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Caja 1 - color hexadecimal */
+#caja1 {
+  background-color: #ff5733;
+  box-shadow: 10px 10px 15px #999;
+}
+
+/* Caja 2 - RGB */
+#caja2 {
+  background-color: rgb(52, 152, 219);
+  box-shadow: -10px 10px 15px gray;
+}
+
+/* Caja 3 - RGBA */
+#caja3 {
+  background-color: rgba(46, 204, 113, 0.8);
+  box-shadow: 0px 0px 20px black;
+}
+
+/* Caja 4 - HSL */
+#caja4 {
+  background-color: hsl(280, 70%, 50%);
+  box-shadow: 5px 5px 25px purple;
+}
+
+/* Caja 5 - Nombre del color */
+#caja5 {
+  background-color: crimson;
+  box-shadow: inset 0px 0px 20px black;
+}
